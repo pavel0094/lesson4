@@ -79,7 +79,7 @@ h2 {
 .firstlist {
    font-family: Lato;
    color: rgba(21, 14, 90, 0.692);
-   text-shadow: sandybrown;
+   text-shadow: rgb(151, 106, 66);
    letter-spacing: 8px;
    text-shadow: 10px 10px 30px red;
 }
