@@ -1,0 +1,122 @@
+@import "null.css";
+@import url("https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,700&display=swap");
+/* Zen Kurenaido Fonts 400 */
+
+@font-face {
+   font-family: Cony;
+   src: url("../fonts/Cony.woff") format("woff");
+   font-weight: 400;
+   font-style: normal;
+   font-display: swap;
+}
+@font-face {
+   font-family: Cony;
+   src: url("../fonts/Cony-Bold.woff") format("woff");
+   font-weight: 700;
+   font-style: normal;
+   font-display: swap;
+}
+@font-face {
+   font-family: Cony;
+   src: url("../fonts/Cony-Light.woff") format("woff");
+   font-weight: 300;
+   font-style: normal;
+   font-display: swap;
+}
+body {
+   font-family: "Cony", sans-serif;
+   font-size: 20px;
+   /* font-weight по умолчанию 400 */
+}
+
+a {
+   font-size: 35px;
+   font-weight: 900;
+   letter-spacing: normal;
+}
+.titlefirst {
+   font-family: "Times New Roman", Times, serif;
+   font-size: 30px;
+   font-weight: 900;
+}
+/* переназначили стиль у заголовка */
+h2 {
+   font-family: "Times New Roman", Times, serif;
+   font-weight: 700;
+   font-size: 25px;
+   color: rgba(9, 141, 5, 0.808);
+}
+.startgit {
+   font-weight: 300;
+   font-size: 25px;
+   color: brown;
+   text-align: right;
+   text-decoration: underline;
+   text-shadow: 2px 1px 1px rgb(231, 137, 28);
+
+   line-height: 2;
+}
+.registration {
+   font-family: "Oswald", serif;
+   font-size: 25px;
+   letter-spacing: 5px;
+   text-indent: 30px;
+   word-spacing: 30px;
+   text-align: center;
+   white-space: nowrap;
+   text-transform: lowercase;
+}
+
+#opportunities ~ p {
+   font-family: "Zen Kurenaido", fantasy;
+   /* шрифт применяется только к латинице, к кирилице назначается семейство fantasy */
+   color: darkcyan;
+   font-style: oblique;
+   text-align: left;
+   text-decoration: line-through;
+}
+.firstlist {
+   font-family: Lato;
+   color: rgba(21, 14, 90, 0.692);
+   text-shadow: sandybrown;
+   letter-spacing: 8px;
+   text-shadow: 10px 10px 30px red;
+}
+.englishtext {
+   font-family: "Zen Kurenaido", fantasy;
+   font-size: 25px;
+}
+
+#microsoft + p {
+   color: red;
+}
+
+.part2 {
+   font-family: serif;
+   /* любой шрифт из семейства serif? */
+   color: red;
+   text-transform: uppercase;
+   font-weight: 900;
+   font-size: 40px;
+}
+.page2 {
+   font-family: "Lato", sans-serif;
+   font-weight: 400;
+   font-size: 16px;
+   text-align: left;
+   line-height: 1.6;
+   color: #424551;
+}
+.title {
+   font-weight: 700;
+   font-size: 36px;
+   line-height: 1.3;
+   color: #1e212c;
+}
+.bigtext {
+   font-size: 20px;
+   font-weight: 700;
+   line-height: 1.5;
+   color: #1e212c;
+}

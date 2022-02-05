@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&display=swap" rel="stylesheet">
+   <!-- Oswald Fonts 300,400,700 -->
+   <link href="https://fonts.googleapis.com/css?family=Lato:regular,700,900" rel="stylesheet&display=swap" />
+   <!-- подключение через плагин Lato Font 400,700,900 -->
+   <link rel="stylesheet" href="/css/null.css">
+   <link rel="stylesheet" href="css/style.css">
+   <title>Lesson 4 homework: fonts</title>
+</head>
+
+<body>
+   <header class="header">
+      <nav class="navigation">
+
+      </nav>
+   </header>
+   <main class="main">
+      <div class="page">
+         <div class="startgit">
+            <h1 class="titlefirst" id="start">GitHub и его возможности</h1>
+            <p>Распределенные системы контроля версий (DVCS) постепенно замещают собой централизованные. Если вы еще не
+               используете одну из них — самое время попробовать.</p>
+            <img width="400" src="img/git.png" alt="github social coding">
+            <p>В статье я постараюсь показать, как можно быстро начать экспериментировать с git, используя сайт
+               github.com.
+            </p>
+            <p>В статье не будут рассмотрены различия между разными DVCS. Также не будет детально рассматриваться работа
+               с
+               git, по этой теме есть множество хороших источников, которые я приведу в конце статьи.</p>
+            <p>Итак, сайт github.com позиционируется как веб-сервис хостинга проектов с использованием системы контроля
+               версий git, а также как социальная сеть для разработчиков. Пользователи могут создавать неограниченное
+               число
+               репозиториев, для каждого из которых предоставляется wiki, система issue tracking-а, есть возможность
+               проводить code review и многое другое. GitHub на данный момент является самым популярным сервисом такого
+               рода, обогнав Sourceforge и Google Code.</p>
+            <p>Для open-souce проектов использование сайта бесплатно. При необходимости иметь приватные репозитории,
+               есть
+               возможность перейти на платный тарифный план:</p>
+         </div>
+         <img src="img/price.png" alt="тарифы">
+         <h2 id="registration">Регистрация</h2>
+         <div class="registration">
+            <p>Начнем с регистрации. Идем по ссылке <a href="https://github.com/"
+                  target="_blank">github.com/signup/free</a> и вводим свои данные.
+               После регистрации мы попадаем на Dashboard нашего аккаунта:</p>
+            <p>Сейчас у нас нет ни одного репозитория, и мы можем либо создать новый репозиторий, либо ответвиться
+               (fork)
+               от уже существующего чужого репозитория и вести собственную ветку разработки. Затем, при желании, свои
+               изменения можно предложить автору исходного репозитория (Pull request).</p>
+            <p>GitHub позволяет работать с репозиториями тремя способами: SSH, HTTP и Git Read-Only, соответственно
+               предоставляя ссылки трех видов для нашего репозитория:</p>
+            <ol>
+               <li>git@github.com:habrauser/Hello-world.git</li>
+               <li>habrauser@github.com/habrauser/Hello-world.git</li>
+               <li>git://github.com/habrauser/Hello-world.git</li>
+            </ol>
+            <p>Для того, чтобы просто забрать репозиторий на локальную машину, достаточно внутреннего протокола git
+               (третья
+               ссылка). Это наиболее быстрый и эффективный способ, который обеспечивает анонимный доступ только для
+               чтения.
+            </p>
+         </div>
+         <h2 id="opportunities">Возможности</h2>
+         <p>Создатели сайта называют GitHub «социальной сетью для разработчиков».</p>
+         <p>Кроме размещения кода, участники могут общаться, комментировать правки друг друга, а также следить за
+            новостями знакомых.</p>
+         <p>С помощью широких возможностей Git программисты могут объединять свои репозитории — GitHub предлагает
+            удобный интерфейс для этого и может отображать вклад каждого участника в виде дерева.</p>
+         <p>Прямо на сайте можно просмотреть файлы проектов с подсветкой синтаксиса для большинства языков
+            программирования.</p>
+         <ul class="firstlist">
+            <li>Можно создавать приватные репозитории, которые будут видны только вам и выбранным вами людям. Раньше
+               такая возможность была платной.</li>
+            <li>Есть возможность прямого добавления новых файлов в свой репозиторий через веб-интерфейс сервиса</li>
+            <li>Код проектов можно не только скопировать через Git, но и скачать в виде обычных архивов с сайта.</li>
+            <li>На сайте есть pastebin-сервис <a href="https://gist.github.com/" target="_blank">gist.github.com</a> для
+               быстрой
+               публикации фрагментов кода.</li>
+         </ul>
+         <h2 id="popular">Популярность</h2>
+         <p>Первый частный репозиторий был создан 12 января 2008. К концу 2011 года в проекте уже было зарегистрировано
+            более миллиона пользователей и более двух миллионов репозиториев. По состоянию на март 2017 года на сайте
+            существовало более 58 миллионов репозиториев.</p>
+         <p>Многие крупные IT-компании размещают свои официальные репозитории на этом сервисе:</p>
+         <div class="englishtext">
+            <h2 id="microsoft">Acquisition by Microsoft</h2>
+            <p>From 2012, Microsoft became a significant user of GitHub, using it to host open-source projects and
+               development tools such as .NET Core, Chakra Core, MSBuild, PowerShell, PowerToys, Visual Studio Code,
+               Windows Calculator, Windows Terminal and the bulk of its product documentation (now to be found on
+               Microsoft
+               Docs)</p>
+            <p>On June 4, 2018, Microsoft announced its intent to acquire GitHub for US$7.5 billion. The deal closed on
+               October 26, 2018.[40] GitHub continued to operate independently as a community, platform and
+               business.[41]
+               Under Microsoft, the service was led by Xamarin's Nat Friedman, reporting to Scott Guthrie, executive
+               vice
+               president of Microsoft Cloud and AI. GitHub's CEO, Chris Wanstrath, was retained as a "technical fellow,"
+               also reporting to Guthrie.</p>
+            <p>There have been concerns from developers Kyle Simpson, JavaScript trainer and author, and Rafael Laguna,
+               CEO
+               at Open-Xchange over Microsoft's purchase, citing uneasiness over Microsoft's handling of previous
+               acquisitions, such as Nokia's mobile business or Skype.[</p>
+            <p>This acquisition was in line with Microsoft's business strategy under CEO Satya Nadella, which has seen a
+               larger focus on the cloud computing services, alongside development of and contributions to open-source
+               software.[5][39][44] Harvard Business Review argued that Microsoft was intending to acquire GitHub to get
+               access to its user base, so it can be used as a loss leader to encourage use of its other development
+               products and services</p>
+            <p>Concerns over the sale bolstered interest in competitors: Bitbucket (owned by Atlassian), GitLab (a
+               commercial open source product that also runs a hosted service version) and SourceForge (owned by BIZX,
+               LLC)
+               reported that they had seen spikes in new users intending to migrate projects from GitHub to their
+               respective services</p>
+         </div class="englishtext">
+      </div>
+   </main>
+   <footer class="footer">
+      <a class="part2" href="page2.html">ссылка на вторую часть домашки</a>
+   </footer>
+</body>
+
+</html>
